@@ -437,7 +437,7 @@ function containsSwear(text) {
   return hasExactSwear || hasBypassSwear;
 }
 
-function hasExcessiveCaps(text, minLength = 8, capsThreshold = 0.7) {
+function hasExcessiveCaps(text, minLength = 999999, capsThreshold = 0.99) {
   if (!text) return false;
   const letters = text.replace(/[^a-zA-Z]/g, '');
   if (letters.length < minLength) return false;
