@@ -1119,7 +1119,7 @@ client.on('messageCreate', message => {
   }
 });
 client.on('messageCreate', message => {
-  if (message.content.startsWith('<@1110480684700668024> tell me a joke')) {
+  if (message.content.startsWith('<@1571747214894825613> tell me a joke')) {
     const reasons = [
       'Are you a smart fella, or a fart smella!?',
       'SteavenGamerYT.',
