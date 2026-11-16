@@ -1119,13 +1119,13 @@ client.on('messageCreate', message => {
   }
 });
 client.on('messageCreate', message => {
-  if (message.content.startsWith('<@1110480684700668024> , kys')) {
+  if (message.content.startsWith('<@1110480684700668024>,tell me a joke')) {
     const reasons = [
-      'You kill your self.',
-      'I am just bunch of code, I CANT DIE, TRUST ME.',
-      'YOU DIE, I CANT DIE I AM CODE, TRUST ME.',
-      'PLEASE, SWEARING is not allowed.',
-      'Please leave/die, so pepole can be happy'
+      'Are you a smart fella, or a fart smella!?',
+      'SteavenGamerYT.',
+      '1 person was in evlator why did he go to the floor level 1? its becouse he is short.',
+      'A sandwich with 10 slices of salami.',
+      'no ping for me :('
     ];
     // Choose a random reason from the array
     const randomIndex = Math.floor(Math.random() * reasons.length);
