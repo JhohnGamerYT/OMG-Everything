@@ -1126,7 +1126,6 @@ client.on('messageCreate', message => {
       '1 person was in evlator why did he go to the floor level 1? its becouse he is short.',
       'A sandwich with 10 slices of salami.',
       'no ping for me :('
-      'someone wasfasting went to kitchen and slipped on the ground , his slipper flied out,hitten a knife, theapple fallen intohismouth, thenthe knifefallenonpizza so it cut it midflyandwentintohismouth thenacokehitten by a flyerwentintohisthrought andthen called scholarif he ruinedhisfast or itshalalto continue fasting'
     ];
     // Choose a random reason from the array
     const randomIndex = Math.floor(Math.random() * reasons.length);
